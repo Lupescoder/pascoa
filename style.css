@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+}
+
+h2 {
+    text-shadow: 1px 1px black;
+    font-family: sans-serif;
+    letter-spacing: 4px;
+    padding-top: 50px;
+    font-size: 50px;
+    margin: 0;
+}
+
+nav {
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    background-color: #B4D9D2;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    letter-spacing: 4px;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover:not(.active) {
+    background-color: #F28599;
+}
+
+.login:hover {
+    background-color: #F28599;
+}
+
+.login a {
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.login {
+    float: right;
+    padding: 14px 16px;
+    font-size: 25px;
+    background-color: #B4D9D2;
+    letter-spacing: 4px;
+    color: white;
+    text-align: center;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.logo {
+    float: left;
+    font-weight: bold;
+    padding-left: 10PX;
+    font-size: 40px;
+    background-color: #B4D9D2;
+}
+
+.active {
+    background-color: #F28599;
+}
+
+#banner {
+    background-image: url(img/banner.jpg);
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    margin: auto;
+    width: 100%;
+    position: relative;
+    height: 500px;
+    top: 40px;
+    background-size: cover;
+    background-position: center center;
+}
+
+#botaoinicio {
+    box-shadow: 0 5px #666;
+    transform: translate(4px);
+}
+
+#botaoinicio:hover {
+    background-color: #B4D9D2;
+}
+
+#botaoinicio {
+    background-color: #F28599;
+    border: solid #f1f1f1;
+    border-radius: 500px;
+    top: 45%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+}
+
+.textoindtro {
+    background-color: #F28599;
+    text-shadow: black;
+    color: white;
+    border-radius: 500px;
+    font-weight: bold;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 18%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 20px;
+    text-align: center;
+}
+
+.sobre {
+    background-image: url("img/background4.jpg");
+    background-position: center;
+    text-shadow: 1px 1px rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+    line-height: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.compras {
+    background-image: url("img/background.png");
+}
+
+div.imgcompra {
+    display: inline-block;
+    margin: 5px;
+    border: 4px solid #F28599;
+    border-radius: 10px;
+}
+
+div.imgcompra:hover {
+    border: 10px solid #C1D9A9;
+}
+
+div.imgcpmra img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    background-color: #C1D9A9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #f134c2;
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
+}
+
+.local {
+    background-image: url("img/background2.jpg");
+    background-color: #F28599;
+}
+
+iframe {
+    border: 10px solid #C1D9A9;
+    border-radius: 50px;
+}
+
+.contato {
+    background-image: url("img/background1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+}
+
+.contato input {
+    border-radius: 20px;
+    border: 1px solid #B5E2DD;
+    color: black;
+    width: 250px;
+    height: 30px;
+    padding-left: 10px;
+}
+
+.contato textarea {
+    border-radius: 20px;
+    border: 1px solid #B5E2DD;
+    color: black;
+    width: 250px;
+    height: 100px;
+    padding-left: 10px;
+}
+
+.contato button {
+    background-color: #B5E2DD;
+    padding: 14px 40px;
+    border-radius: 20px;
+    border-color: #B5E2DD;
+}
+
+.contato button:hover {
+    background-color: #F28599;
+}
+
+.copy p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 4px;
+    padding-top: 30px;
+    margin: 0;
+}
+
+.copy {
+    background-color: #B5E2DD;
+    height: 100px;
+}
